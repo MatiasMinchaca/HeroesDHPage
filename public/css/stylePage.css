@@ -1,0 +1,41 @@
+body{
+    background-image: url('../img/backgroundPage.jpg');
+    background-image: no-repeat;
+    background-image: fixed;
+    background-image: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    height: 300px;
+    margin-right: 10px;
+    border:  1px solid rgb(16, 11, 11);
+    float: left;
+}
+h4{
+    color: white;
+    margin: 0px;
+    text-align: center;
+    background-color: rgba(220, 20, 60, 0);
+}
+a{
+    color: white;
+    font-style: italic;
+    color: rgb(237, 237, 237);
+    background-color: rgb(0, 0, 0);
+}
+p{
+    color: white;
+    margin: 5px;
+}
+h2,h3{
+    color: white;
+}

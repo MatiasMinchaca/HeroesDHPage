@@ -1,15 +1,12 @@
 body{
     background-image: url('../img/backgroundPage.jpg');
-    background-image: no-repeat;
-    background-image: fixed;
-    background-image: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 h1{
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
@@ -21,21 +18,20 @@ img {
     float: left;
 }
 h4{
-    color: white;
+    color: rgb(0, 0, 0);
     margin: 0px;
     text-align: center;
-    background-color: rgba(220, 20, 60, 0);
+    background-color: rgba(235, 235, 235, 0);
 }
 a{
-    color: white;
+    color: rgb(0, 0, 0);
     font-style: italic;
-    color: rgb(237, 237, 237);
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
 }
 p{
-    color: white;
+    color: rgb(0, 0, 0);
     margin: 5px;
 }
 h2,h3{
-    color: white;
+    color: rgb(0, 0, 0);
 }

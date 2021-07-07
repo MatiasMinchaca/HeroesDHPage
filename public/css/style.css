@@ -1,27 +1,22 @@
 body{
     background-image: url("../img/background.jpg"); 
-    background-image: no-repeat;
-    background-image: fixed;
-    background-image: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 h1{     
-    -webkit-text-stroke: 0.1px rgb(153, 26, 26);
-    color: rgb(209, 98, 98);
+    -webkit-text-stroke: 0.3px rgb(0, 0, 0);
+    color: rgb(202, 30, 30);
     text-align: center;
 }
 
 h2{
-    -webkit-text-stroke: 0.1px rgb(167, 88, 88);
-    background-color: rgba(255, 255, 255, 0);
-    color: rgb(189, 97, 97);
-    text-align: center
-   
-    
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+    color: rgb(187, 14, 14);
+    text-align: center;
+    padding-bottom: 50px;
 }
 
 div{
@@ -29,11 +24,21 @@ div{
 }
 
 a{
-    -webkit-text-stroke: 0.3px rgb(85, 3, 3);
+    -webkit-text-stroke: 0.3px rgb(214, 81, 81);
     font-size: 25px;
-    margin: 25px;
+    margin: 50px;
     display: block;
     text-align: center;
     transform: translateX(-2%);
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: solid 1px black;
+
+}
+
+.foot{
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+    color: rgb(187, 14, 14);
+    text-align: center;
+    padding-top: 50px;
 }

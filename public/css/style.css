@@ -10,13 +10,14 @@ h1{
     -webkit-text-stroke: 0.3px rgb(0, 0, 0);
     color: rgb(202, 30, 30);
     text-align: center;
+    margin: 0px;
 }
 
-h2{
+h2 {
     -webkit-text-stroke: 0.5px rgb(0, 0, 0);
     color: rgb(187, 14, 14);
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
 }
 
 div{
@@ -26,14 +27,13 @@ div{
 a{
     -webkit-text-stroke: 0.3px rgb(214, 81, 81);
     font-size: 25px;
-    margin: 50px;
+    margin: 30px;
     display: block;
     text-align: center;
     transform: translateX(-2%);
     color: rgb(0, 0, 0);
     text-decoration: none;
     border: solid 1px black;
-
 }
 
 .foot{
